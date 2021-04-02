@@ -25,218 +25,43 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#projects">Back to Main</a></li>
                 </ul>
             </div>
         </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
+        <!-- Gitlet -->
+            <section class="resume-section" id="scheme_interpreter">
                 <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Woohyun 
-                        <span class="text-primary">Michael Jo</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        University of California, Berkeley • +82) 010-9562-5240 •
-                        <a href="mailto:woohyun7878@email.com">woohyun7878@berkeley.edu</a>
-                    </div>
-                    <p class="lead mb-5">Hello! I am a current freshman at UC Berkeley studying computer science. Feel free to check out my past work!
-                    <br>(Or, you can play with the navbar animations)
-                    </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://linkedin.com/in/woohyunmjo"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/woohyun7878"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Projects-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
+                    <h2 class="mb-0">Scheme Interpreter</h2>
+                    <p style="font-size:150%;" class="mb-5">An interpreter for the Scheme language, powered by Python.
+                    <hr>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Gitlet</h3>
-                            <div class="subheading mb-3">Java</div>
-                            <p> Implemented a version-control system that mimics some of the basic features of the popular system Git
-                                (add, commit, branch, checkout, etc.). 
-                                <br><a href="#"> View project</a>
-                            </p>                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Scheme Interpreter</h3>
-                            <div class="subheading mb-3">Python</div>
-                            <p> This program interprets Scheme (Lisp Programming Language) code through syntactical and lexical analysis. 
-                                Symbol evaluation, definitions, and user-defined procedures are all supported via dynamic scoping. 
-                                <br><a href="#"> View project </a>
-                            </p>                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Moneythings</h3>
-                            <div class="subheading mb-3">After Effects • Illustrator • Audacity</div>
-                            <p>Produced bite-sized, flat-animation infographics content via After Effects CC.
-                                I started this personal project as a complement to my independent study of motion graphic production, 
-                                but I ended up creating a dozen more videos.
-                                <br><a href="https://www.youtube.com/channel/UCv-uXCYQc3RALJAp2aM-qxg"> View project </a>
-                            </p>                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2018 - March 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">HomeBuild </h3> 
-                            <div class="subheading mb-3">Volunteer Project</div> 
-                            <p>Organized and led a team of 20 students from South Korea to build a brick house with water and electricity for a family of four in Chiang Mai, Thailand.
-                                I'm looking for the photos that we took at the time. I will add a gallery soon!
+                            <h3 class="mb-1">Functionality</h3>
+                            <p style="font-size:120%;"><i>The scheme interpreter:</i></p>
+                                <ul class = "mb-5">
+                                    <li>Evaluates user expressions through syntactical and lexical analysis.</li>
+                                    <li>Outputs appropriate values after every command.</li>
+                                    <li>Catches all known exceptions and output useful error messages.</li>
+                                    <li>Lexically stores user-defined variables and procedures.</li>
+                                    <li>Calls functions via dynamic scoping via the <code class="language-plaintext">mu</code> keyword.</li>
+                                    <li>Implements most built-in expressions.</li>
+                                    <li>Implements recursive logic (there is no iteration in Scheme, only recursion).</li>
+                                </ul>
+                                <hr> 
                             </p>
+                            <h3 class="mb-1">Demo</h3>
+                            <p style="font-size:120%;"><i>Source code can be provided on <a href="mailto:woohyun7878gmail.com">request</a></i></p>
+                                <p class="text-center"><img src="assets/gifs/schemeDemo.gif" class="img-rounder" width=80% height=80% alt="Scheme_Demo" > </p>
+                                <h3 class="mb-1">Acknowledgements</h3>
+                                <p> 
+                                    <br> This project was created for UC Berkeley CS61A: The Structure and Interpretation of Computer Programs. 
+                                    <br> the HoF scheme expressions in the demo are pulled from the <a href="http://norvig.com/lispy2.html">Peter Norvig Tests </a>
+                                    <br> My career as a programmer really started off with this course, and I owe a ton to professor Denero.
+                                </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2019</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Metaport </h3> 
-                            <div class="subheading mb-3">Global Youth Entrepreneurship Challenge</div> 
-                            <p>In a team of 7, proposed the urban transportation solution Metaport, which is powered by electricity from microbial fuel cells that treat human urine in public restrooms.
-                                <br><a href="https://www.entreplanet.org/GYEC/challenge2018.php"> View project </a>
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2018</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of California, Berkeley</h3>
-                            <div class="subheading mb-3">Bachelor of Arts</div>
-                            <div>Computer Science</div>
-                            <p>GPA: 4.00</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Seoul International School</h3>
-                            <div class="subheading mb-3">High School Diploma</div>
-                            <p>GPA: 98.54%</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2017 - May 2020</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
-                        <li class="list-inline-item"><i class="fas fa-database"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-git"></i></li>
-                        <li class="list-inline-item"><i class="fas fa-terminal"></i></li>
-                        <li class="list-inline-item"><em class="icon-aftereffects"></em></li>
-                        <li class="list-inline-item"><em class="icon-illustrator"></em></li>
-                        <li class="list-inline-item"><em class="icon-photoshop"></em></li>
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Areas of Expertise</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Back-end Development
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Algorithm Implementation
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Discrete Mathematical Theory
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Flat Design
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <h3 class="mb-0">People matter more than things. </h3> 
-                    <p class="mb-0">In the end, we are programming for people. Apart from being a programmer, 
-                        I am an avid student of Humanities—and I think there is tremendous
-                        value in identifying human needs and accommodating them through technical expertise.
-                        <br> <br> I love talking to and interacting with <b>people.</b>
-                    </p>
-                    <p class="mb-0">
-                    </p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Global Youth Entrepreneurship Challenge (GYEC) | Winner | May 2018
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Korea Business Competition (KBC) | Grand Champion (2), Second Place (1) | May 2018 — April 2019
-                                <li> — Developed a financial plan to bring back Toys R’ Us from bankruptcy.</li>
-                                <li> — Proposed a business solution to the solid waste and affordable housing crisis in South Korea through reprocessed solid-waste bricks.</li>
-                                <li> — Proposed a competitive contractual employment for Shinsegae Food (Co-Hosted by Shinsegae).</li>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            
-                            Cornell-Yonsei Invitational | Grand Champion, Asian Parliamentary Debate | July 2018
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            
-                            NSDA Korea National Championship | 3rd Place, Lincoln-Douglas Debate | January 2018
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            
-                            Recognition by the Korean National Assembly | Honoree (2) | July 2018, October 2018
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            
-                            Dean's Honor List - UC Berkeley 
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Academic Award of Excellence - Seoul International School 
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
+                </section>
         <!-- Copyright -->
         <div class="boxed" style="color:black">
             © 2021 Woohyun Jo. All rights reserved. 

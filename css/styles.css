@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /*!
+* Modifications made by Woohyun Jo 
+* Copyright 2021 Woohyun Jo
+*/
+/*!
 * Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
 * Copyright 2013-2020 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
@@ -194,11 +198,6 @@ pre {
 
 figure {
   margin: 0 0 1rem;
-}
-
-img {
-  vertical-align: middle;
-  border-style: none;
 }
 
 svg {
@@ -487,6 +486,30 @@ mark,
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+}
+
+.img-rounder {
+  border-radius: 4%;
+  border-style: none;
+  vertical-align: none;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+}
+
+.img-round {
+  border-radius: 1%;
+  border-style: none;
+  vertical-align: none;  
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
 }
 
 .figure {
