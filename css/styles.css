@@ -163,12 +163,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #6897bb;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #426783;
   text-decoration: underline;
 }
 
@@ -2011,7 +2011,6 @@ vertical-align:middle;
 line-height:1;
 font-weight:normal;
 font-style:normal;
-speak:none;
 text-decoration:inherit;
 text-transform:none;
 text-rendering:optimizeLegibility;
@@ -6594,13 +6593,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #6897bb !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #964a2c !important;
+  background-color: #6897bb !important;
 }
 
 .bg-secondary {
@@ -10306,11 +10305,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #6897bb !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important;
+  color: #6897bb !important;
 }
 
 .text-secondary {
@@ -10608,7 +10607,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #6897bb;
 }
 
 .dev-icons {
