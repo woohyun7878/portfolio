@@ -10627,6 +10627,10 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+.hide-mobile {
+  display: none;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
@@ -10638,5 +10642,33 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+}
+
+@media only screen and (min-width: 992px)  {
+
+  .show-desktop {
+    display: block;
+    margin: 0 auto 13% auto;
+  }
+
+  .scroll {
+      width: 7%;
+      animation: move 1s infinite alternate;
+  }
+
+  .resume-fix-bottom{
+    position:absolute;
+    bottom: -4rem;
+    right: 5%;
+  }
+
+  @keyframes move {
+      from {
+          transform: translateY(0px);
+      }
+      to {
+          transform: translateY(20px);
+      }
   }
 }
