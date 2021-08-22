@@ -717,6 +717,8 @@ section {
 
 .mobile-only {
   display: none;
+  margin-top: -20px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 992px) {
