@@ -682,15 +682,15 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: #1f1f7e;
   margin: 0 2px;
-  font-size: 28px;
+  font-size: 40px;
   display: inline-block;
   transition: 0.3s;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #0e0e74;
+  color: #5050aa;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -713,6 +713,16 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .mobile-only {
+    display: block;
+  }
 }
 
 /*--------------------------------------------------------------
