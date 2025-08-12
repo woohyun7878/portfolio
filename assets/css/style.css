@@ -317,6 +317,44 @@ h1, h2, h3, h4, h5, h6 {
   color: #0000cd;
 }
 
+#hero .social-links a.about {
+  color: #1b1c1d;
+}
+
+#hero .social-links a.about:hover {
+  color: #0000cd;
+}
+
+/*--------------------------------------------------------------
+# Back Arrow
+--------------------------------------------------------------*/
+.back-arrow {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+}
+
+.back-arrow a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #0000cd;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.back-arrow a:hover {
+  background: #0e0e74;
+  color: #fff;
+  transform: translateX(-2px);
+}
+
 @media (max-width: 992px) {
   #hero {
     text-align: center;
