@@ -301,12 +301,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links {
+  display: flex;
   margin-top: 30px;
+  gap: 20px;
 }
 
 #hero .social-links a {
+  display: flex;
   font-size: 24px;
-  display: inline-block;
   color: #1b1c1d;
   line-height: 1;
   transition: 0.3s;
